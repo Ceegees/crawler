@@ -1,0 +1,16 @@
+{
+  "name": "simple-webcrawler-javascript",
+  "version": "0.0.0",
+  "description": "A simple webcrawler written in JavaScript",
+  "main": "crawler.js",
+  "author": "Stephen",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.65.0",
+    "sequelize": "^4.1.0",
+    "sequelize-cli": "^2.7.0",
+    "sqlite3": "^3.1.8",
+    "url-parse": "^1.0.5"
+  }
+}
