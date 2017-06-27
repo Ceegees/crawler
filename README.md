@@ -5,5 +5,5 @@ A simple Link checker which crawls through links provided stores the resulting i
 usage 
 
 ```
-node crawl 
+node crawl http://ceegees.in
 ```
