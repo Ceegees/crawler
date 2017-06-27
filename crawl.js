@@ -49,9 +49,6 @@ Page.sync().then(() => {
 
 PageLinks.sync().then(()=> {
 });
-
-console.log(process.argv);
-
 if (process.argv.length < 3) {
     console.log('Usage : node crawl http://www.domain.com');
     // exit();
@@ -65,7 +62,7 @@ var baseUrl = url.protocol + "//" + url.hostname;
 // crawl();
 
 Page.count().then(c=> {
-    console.log('Page Total Page Count ', c);
+    console.log('Total Page Count ', c);
     if (c == 0) {
         Page.create({
             url: baseUrl
